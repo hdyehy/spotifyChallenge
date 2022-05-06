@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <h1>Spotify Playlist</h1>
     <button id="playButton" type="button">Display Playlist</button>
-    
+    <button id="refreshButton" type="button">Refresh Playlist</button>
     <section id="playlist">
     <ol id="list">
 
     </ol>
     </section>
+
+    <div>
+    <form>
+        type new song here:
+        <input type="text" id="newSong">
+    </form>
+    <button type ="button" id="submitButton">
+        submit
+    </button>
+</div>
 </body>
 <script src="script.js"></script>
 </html>
